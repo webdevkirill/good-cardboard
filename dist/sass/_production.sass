@@ -1,0 +1,103 @@
+.production-container
+	padding-left: 0
+	padding-right: 0
+.pl0
+	padding-left: 0
+.pr0
+	padding-right: 0
+.production
+	padding-top: 87px
+	&-slider
+		&__top
+			margin-bottom: 13px
+			&__item-1
+				height: 377px
+				background: url(../img/production/img-1.jpg) center no-repeat
+				background-size: cover
+				display: block
+				overflow-y: hidden
+			&__item-2
+				height: 377px
+				background: url(../img/production/img-2.jpg) center no-repeat
+				background-size: cover
+				display: block
+				overflow-y: hidden
+		&__bottom
+			padding-left: 30px
+			padding-right: 30px
+			img
+				margin: 0 6px
+				height: 78px
+				overflow-y: hidden
+				width: 107px
+				height: 78px
+			.slick-current
+				position: relative
+				&::after
+					content: ''
+					display: block
+					position: absolute
+					left: 0
+					top: 0
+					width: 100%
+					height: 100%
+					background-color: rgba(0, 0, 0, 0)
+					z-index: 2
+		&__item-2
+			position: relative
+			&::after
+				content: ''
+				display: block
+				position: absolute
+				width: 107px
+				height: 78px
+				left: 6px
+				top: 0
+				background-color: rgba(0, 0, 0, 0.6)
+				z-index: 2
+		&__item-1
+			position: relative
+			&::after
+				content: ''
+				display: block
+				position: absolute
+				width: 107px
+				height: 78px
+				left: 6px
+				top: 0
+				background-color: rgba(0, 0, 0, 0.6)
+				z-index: 2
+	&-text
+		&__title
+			font-size: 28px
+			font-weight: 400
+			color: #ffffff
+			background-color: $color-orange
+			width: 394px
+			margin-top: 19px
+			margin-left: -30px
+			padding-top: 20px
+			padding-bottom: 16px
+			padding-left: 29px
+			margin-bottom: 28px
+		&__descr
+			color: #373737
+			font-size: 16px
+			font-weight: 300
+			line-height: 24px
+			span
+				display: block
+				margin-bottom: 15px
+.slider-arrow
+		&__prod
+			border: 1px solid $color-orange
+			&-right
+				right: 0
+				background: url(../img/arrow-right.png) center no-repeat
+				&:hover
+					background: $color-orange url(../img/arrow-right-active.png) center no-repeat
+			&-left
+				left: 0
+				background: url(../img/arrow-left.png) center no-repeat
+				&:hover
+					background: $color-orange url(../img/arrow-left-active.png) center no-repeat

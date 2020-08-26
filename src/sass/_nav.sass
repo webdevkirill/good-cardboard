@@ -1,0 +1,39 @@
+
+.nav
+	&:after
+	
+	&-close
+		display: none
+		right: 10px
+		top: 5px
+		font-size: 30px
+		position: absolute
+		color: #fff
+	&-wrap
+		display: flex
+		justify-content: space-between
+	&-container
+		padding-left: 0
+		padding-right: 0
+		max-width: 940px
+	position: fixed
+	z-index: 1001
+	width: 100%
+	background-color: #373737
+	padding-top: 17px
+	padding-bottom: 17px
+	a
+		color: #ffffff
+		font-size: 12px
+		font-weight: 400
+		line-height: 22px
+		text-transform: uppercase
+		text-decoration: none
+		&:visited
+			color: #ffffff
+			text-decoration: none
+		&:hover
+			color: $color-orange
+	.line
+		border-right: 1px solid rgba(#ffffff, .2);
+		height: 25px

@@ -1,0 +1,42 @@
+.dn
+	display: none
+.products
+	&-container
+		padding-left: 0
+		padding-right: 0
+		padding-top: 57px
+		padding-bottom: 73px
+	&-block
+		text-align: center
+		&__descr
+			margin-bottom: 28px	
+		&__img
+			min-height: 285px
+			margin-bottom: 19px
+		&__title
+			font-size: 20px
+			font-weight: 700
+			color: $text-color-dark
+			
+		&__buttons
+			button
+				border: 1px solid $color-orange
+				padding: 17px 27px 15px 24px
+				font-size: 15px
+				font-weight: 400
+				margin-bottom: 35px
+				&:hover
+					background-color: #fff
+					color: $color-orange
+
+			.button-o
+				background-color: transparent
+				color: $text-color-dark
+				border: 1px solid rgba($text-color-dark, 0.5)
+				margin-right: 12px
+				margin-bottom: 10px
+				&:hover
+					background-color: lighten($color-orange, 5)
+					color: white
+					border: 1px solid transparent
+					cursor: pointer

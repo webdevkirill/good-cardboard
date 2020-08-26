@@ -1,0 +1,79 @@
+@import "_variables"
+body 
+	font-family: "Roboto", sans-serif
+	margin: 0
+	padding: 0
+.row
+	margin-left: 0
+	margin-right: 0
+
+.pr0 
+	padding-right: 0
+
+.section-title
+	color: #313131
+	font-size: 27px
+	font-weight: 700
+	text-transform: uppercase
+	text-align: center
+	margin-bottom: 29px
+	&::after
+		margin-top: 12px
+		display: block
+		content: ""
+		height: 6px
+		background: url(../img/line.png) center no-repeat
+
+.button
+	background-color: $color-orange
+	border: none
+	color: white
+	border-radius: 5px
+	font-family: Roboto
+	&:focus
+		outline: none
+	&:hover
+		cursor: pointer
+
+.slider-arrow
+	position: absolute
+	height: 100%
+	padding-left: 8px
+	padding-right: 8px
+	border: 1px solid #ff9d00
+	top: 0
+	z-index: 99
+	&:hover
+		cursor: pointer
+.slick-slide
+	&:focus
+		outline: none
+
+.footer
+	background-color: #1b1b1b
+	text-align: center
+	padding-top: 36px
+	padding-bottom: 39px
+	&-text
+		opacity: 0.5
+		color: #ffffff
+		font-size: 13px
+		font-weight: 300 
+
+@import "_reset" 
+@import "_fonts"
+@import "_nav"
+@import "_header"  
+@import "_main"  
+@import "_overlay"
+@import "_features"
+@import "_products"
+@import "_clients"
+@import "_production"
+@import "_feedback"
+@import "_sform"   
+@import "_map" 
+@import "_media"    
+ 
+
+
